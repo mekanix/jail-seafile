@@ -1,0 +1,6 @@
+---
+- name: install seafile packages
+  with_items: "{{ seafile_packages }}"
+  package:
+    name: "{{ item.name }}"
+    state: latest

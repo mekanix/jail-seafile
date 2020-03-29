@@ -1,0 +1,5 @@
+---
+seafile_packages:
+  - name: "{{ python_prefix }}-pymysql"
+  - name: seafile-server
+  - name: seahub
